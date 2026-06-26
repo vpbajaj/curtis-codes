@@ -1,6 +1,9 @@
 # Copyrighted source material — do not publish
 *.pdf
 
+# Local, machine-specific docs (hardcoded paths)
+README.local.md
+
 # Generated figures / build artifacts
 curtis/appendix_c/*.png
 

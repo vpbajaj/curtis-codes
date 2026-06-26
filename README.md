@@ -38,13 +38,21 @@ tests/
   test_appendix_c.py                   Checks COM motion / momentum for the 3-body solver
 ```
 
-## Running
+## Setup
 
-Activate the project's virtual environment, then run any algorithm's worked
-example directly:
+Create a virtual environment and install the dependencies:
 
 ```bash
-source /Users/vishalbajaj/vishal_codes/astronomy/venv/bin/activate
+python -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+## Running
+
+With the environment active, run any algorithm's worked example directly:
+
+```bash
 python -m curtis.algorithms.alg_3_4_rv_from_r0v0
 python -m curtis.algorithms.alg_8_2_interplanetary
 python -m curtis.appendix_c.threebody          # integrates and writes Figures 2.5/2.6
