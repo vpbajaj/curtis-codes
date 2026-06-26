@@ -2,3 +2,8 @@ numpy
 scipy
 matplotlib
 pytest
+
+# Notebooks (teaching layer)
+jupyterlab
+plotly          # interactive 3-D orbital-geometry figures (notebooks/orbital_elements.py)
+kaleido         # optional: static PNG export of plotly figures

@@ -7,6 +7,9 @@ README.local.md
 # Generated figures / build artifacts
 curtis/appendix_c/*.png
 
+# Jupyter
+**/.ipynb_checkpoints/
+
 # Python
 __pycache__/
 *.py[cod]
