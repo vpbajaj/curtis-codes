@@ -1,0 +1,28 @@
+# Copyrighted source material — do not publish
+*.pdf
+
+# Generated figures / build artifacts
+curtis/appendix_c/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
